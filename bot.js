@@ -35,6 +35,92 @@ client.on('ready', () => {
 ////////////////////////////
 //تكفي عندي اني عالي عليك
 //////////////////////////
+client.on("ready", async  => {
+setInterval(function(){
+client.channels.find('id', '526363779106209793').setName("W");
+client.channels.find('id', '526363779106209793').setName("We");
+client.channels.find('id', '526363779106209793').setName("Wel");
+client.channels.find('id', '526363779106209793').setName("Welc");
+client.channels.find('id', '526363779106209793').setName("Welco");
+client.channels.find('id', '526363779106209793').setName("Welcom");
+client.channels.find('id', '526363779106209793').setName("Welcome");
+client.channels.find('id', '526363779106209793').setName("Welcome T");
+client.channels.find('id', '526363779106209793').setName("Welcome To");
+client.channels.find('id', '526363779106209793').setName("Welcome To M");
+client.channels.find('id', '526363779106209793').setName("Welcome To Ma");
+client.channels.find('id', '526363779106209793').setName("Welcome To Mal");
+client.channels.find('id', '526363779106209793').setName("Welcome To Mal S");
+client.channels.find('id', '526363779106209793').setName("Welcome To Mal Sh");
+client.channels.find('id', '526363779106209793').setName("Welcome To Mal Sho");
+client.channels.find('id', '526360905211052042').setName("Welcome To Mal Shop");
+client.channels.find('id', '526363779106209793').setName("Welcome To Mal Shop🔝");
+
+
+
+  }, 3000);
+});
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////// Invite By
+
+
+/////////////////////Mal Shop
+
+
+//////////////////
+client.on("ready", async  => {
+setInterval(function(){
+client.channels.find('id', '521036485839945751').setName("W");
+client.channels.find('id', '521036485839945751').setName("We");
+client.channels.find('id', '521036485839945751').setName("Wel");
+client.channels.find('id', '521036485839945751').setName("Welc");
+client.channels.find('id', '521036485839945751').setName("Welco");
+client.channels.find('id', '521036485839945751').setName("Welcom");
+client.channels.find('id', '521036485839945751').setName("Welcome");
+client.channels.find('id', '521036485839945751').setName("Welcome T");
+client.channels.find('id', '521036485839945751').setName("Welcome To");
+client.channels.find('id', '521036485839945751').setName("Welcome To M");
+client.channels.find('id', '521036485839945751').setName("Welcome To Ma");
+client.channels.find('id', '521036485839945751').setName("Welcome To Mal");
+client.channels.find('id', '521036485839945751').setName("Welcome To Mal C");
+client.channels.find('id', '521036485839945751').setName("Welcome To Mal Co");
+client.channels.find('id', '521036485839945751').setName("Welcome To Mal Cod");
+client.channels.find('id', '521036485839945751').setName("Welcome To Mal Code");
+client.channels.find('id', '521036485839945751').setName("Welcome To Mal Codes");
+client.channels.find('id', '521036485839945751').setName("Welcome To Mal Codes🔝");
+
+
+
+  }, 3000);
+});
+
+///////////////////////////////////////////////////
+client.on("ready", async  => {
+setInterval(function(){
+client.channels.find('id', '521035835806711809').setName("W");
+client.channels.find('id', '521035835806711809').setName("We");
+client.channels.find('id', '521035835806711809').setName("Wel");
+client.channels.find('id', '521035835806711809').setName("Welc");
+client.channels.find('id', '521035835806711809').setName("Welco");
+client.channels.find('id', '521035835806711809').setName("Welcom");
+client.channels.find('id', '521035835806711809').setName("Welcome");
+client.channels.find('id', '521035835806711809').setName("Welcome T");
+client.channels.find('id', '521035835806711809').setName("Welcome To");
+client.channels.find('id', '521035835806711809').setName("Welcome To M");
+client.channels.find('id', '521035835806711809').setName("Welcome To Mal");
+client.channels.find('id', '521035835806711809').setName("Welcome To Mali");
+client.channels.find('id', '521035835806711809').setName("Welcome To Malici");
+client.channels.find('id', '521035835806711809').setName("Welcome To Malicio");
+client.channels.find('id', '521035835806711809').setName("Welcome To Maliciou");
+client.channels.find('id', '521035835806711809').setName("Welcome To Malicious");
+client.channels.find('id', '521035835806711809').setName("Welcome To Malicious™");
+
+
+
+
+  }, 3000);
+});
 
 
 ////////////////////
