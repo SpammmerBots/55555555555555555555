@@ -7586,9 +7586,27 @@ hours = 12;
 ///////SERVER Wings
 
 
+client.on("ready", () => {
+  function lol() {
+    client.guilds.get('481876096766181377').roles.find("name", "Rainbow 3").setColor("RANDOM");
+  };
+  setInterval(lol, 10099);
+});
 
+//
+client.on("ready", () => {
+  function lol() {
+    client.guilds.get('481876096766181377').roles.find("name", "Rainbow 2").setColor("RANDOM");
+  };
+  setInterval(lol, 10099);
+});
 
-
+client.on("ready", () => {
+  function lol() {
+    client.guilds.get('481876096766181377').roles.find("name", "Rainbow 1").setColor("RANDOM");
+  };
+  setInterval(lol, 10099);
+});
 
 client.on("ready", () => {
   function lol() {
