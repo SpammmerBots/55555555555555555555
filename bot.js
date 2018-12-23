@@ -52,7 +52,7 @@ client.channels.find('id', '526363779106209793').setName("Welcome To Mal");
 client.channels.find('id', '526363779106209793').setName("Welcome To Mal S");
 client.channels.find('id', '526363779106209793').setName("Welcome To Mal Sh");
 client.channels.find('id', '526363779106209793').setName("Welcome To Mal Sho");
-client.channels.find('id', '526360905211052042').setName("Welcome To Mal Shop");
+client.channels.find('id', '526363779106209793').setName("Welcome To Mal Shop");
 client.channels.find('id', '526363779106209793').setName("Welcome To Mal Shop🔝");
 
 
