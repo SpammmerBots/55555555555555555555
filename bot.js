@@ -7526,12 +7526,7 @@ hours = 12;
 
 
 
-client.on("ready", () => {
-  function lol() {
-    client.guilds.get('479519956208320512').roles.find("name", "○").setColor("RANDOM");
-  };
-  setInterval(lol, 10099);
-});
+
 
 client.on("ready", () => {
   function lol() {
@@ -7540,6 +7535,31 @@ client.on("ready", () => {
   setInterval(lol, 10099);
 });
 
+
+client.on("ready", async  => {
+setInterval(function(){
+client.channels.find('id', '526360905211052042').setName("W");
+client.channels.find('id', '526360905211052042').setName("We");
+client.channels.find('id', '526360905211052042').setName("Wel");
+client.channels.find('id', '526360905211052042').setName("Welc");
+client.channels.find('id', '526360905211052042').setName("Welco");
+client.channels.find('id', '526360905211052042').setName("Welcom");
+client.channels.find('id', '526360905211052042').setName("Welcome");
+client.channels.find('id', '526360905211052042').setName("Welcome T");
+client.channels.find('id', '526360905211052042').setName("Welcome To");
+client.channels.find('id', '526360905211052042').setName("Welcome To M");
+client.channels.find('id', '526360905211052042').setName("Welcome To Ma");
+client.channels.find('id', '526360905211052042').setName("Welcome To Mal");
+client.channels.find('id', '526360905211052042').setName("Welcome To Mal S");
+client.channels.find('id', '526360905211052042').setName("Welcome To Mal Sh");
+client.channels.find('id', '526360905211052042').setName("Welcome To Mal Sho");
+client.channels.find('id', '526360905211052042').setName("Welcome To Mal Shop");
+client.channels.find('id', '526360905211052042').setName("Welcome To Mal Shop🔝");
+
+
+
+  }, 3000);
+});
 
 
 
