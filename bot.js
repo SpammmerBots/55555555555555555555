@@ -623,7 +623,7 @@ client.on("message", message => {
           ***¯−»Help Bot Mal Shop«−¯***
          
 🔔 Orders Public- Type: **__g!help-public__** To Get Orders Public
-🔐 Orders Admin- Type:  **__g!help-Admin__** To Get Orders Admin
+🔐 Orders Admin- Type:  **__g!help-admin__** To Get Orders Admin
 🎶 Orders Music- Type:  **__g!help-music__**  To Get Orders Music
 🎲 Orders Games- Type:  **__g!help-games__** To Get Orders GAMES
 📬 Orders BroadCast: Type: **__g!help-bc__** To Get Orders BroadCast
@@ -4135,11 +4135,7 @@ client.on('message', msg => {
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
-client.on('message', msg => {
-  if (msg.content === 'g!help-R') {
-    msg.reply('***تحت التجديد*** :sparkles: ');
-  }
-});
+
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
