@@ -69,31 +69,6 @@ client.channels.find('id', '526363779106209793').setName("Welcome To Mal ShopðŸ”
 
 
 //////////////////
-client.on("ready", async  => {
-setInterval(function(){
-client.channels.find('id', '521036485839945751').setName("W");
-client.channels.find('id', '521036485839945751').setName("We");
-client.channels.find('id', '521036485839945751').setName("Wel");
-client.channels.find('id', '521036485839945751').setName("Welc");
-client.channels.find('id', '521036485839945751').setName("Welco");
-client.channels.find('id', '521036485839945751').setName("Welcom");
-client.channels.find('id', '521036485839945751').setName("Welcome");
-client.channels.find('id', '521036485839945751').setName("Welcome T");
-client.channels.find('id', '521036485839945751').setName("Welcome To");
-client.channels.find('id', '521036485839945751').setName("Welcome To M");
-client.channels.find('id', '521036485839945751').setName("Welcome To Ma");
-client.channels.find('id', '521036485839945751').setName("Welcome To Mal");
-client.channels.find('id', '521036485839945751').setName("Welcome To Mal C");
-client.channels.find('id', '521036485839945751').setName("Welcome To Mal Co");
-client.channels.find('id', '521036485839945751').setName("Welcome To Mal Cod");
-client.channels.find('id', '521036485839945751').setName("Welcome To Mal Code");
-client.channels.find('id', '521036485839945751').setName("Welcome To Mal Codes");
-client.channels.find('id', '521036485839945751').setName("Welcome To Mal CodesðŸ”");
-
-
-
-  }, 3000);
-});
 
 ///////////////////////////////////////////////////
 
@@ -7586,27 +7561,6 @@ hours = 12;
 ///////SERVER Wings
 
 
-client.on("ready", () => {
-  function lol() {
-    client.guilds.get('481876096766181377').roles.find("name", "Rainbow 3").setColor("RANDOM");
-  };
-  setInterval(lol, 10099);
-});
-
-//
-client.on("ready", () => {
-  function lol() {
-    client.guilds.get('481876096766181377').roles.find("name", "Rainbow 2").setColor("RANDOM");
-  };
-  setInterval(lol, 10099);
-});
-
-client.on("ready", () => {
-  function lol() {
-    client.guilds.get('481876096766181377').roles.find("name", "Rainbow 1").setColor("RANDOM");
-  };
-  setInterval(lol, 10099);
-});
 
 client.on("ready", () => {
   function lol() {
