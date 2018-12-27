@@ -3,6 +3,7 @@ const Discord = require('discord.js');
 const tpoints = {};
 const vpoints = {};
 const jimp = require("jimp");
+const Canvas = require("canvas");
 const client = new Discord.Client();
 
 client.on('ready', () => {
