@@ -228,7 +228,7 @@ client.on('guildMemberAdd', member=> {
     });
 
 client.on('guildMemberAdd', member=> {
-    member.addRole(member.guild.roles.find("name","• MaL"));
+    member.addRole(member.guild.roles.find("name","•  ೌ Guest ."));
     });
 client.on('guildMemberAdd', member=> {
     member.addRole(member.guild.roles.find("name","『Members』"));
