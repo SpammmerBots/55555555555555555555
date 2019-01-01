@@ -63,7 +63,17 @@ client.channels.find('id', '526363779106209793').setName("Welcome To Mal Shop�
 
 
 /////////////////////////////////////////////////////////////////////////////////////////// Invite By
-
+client.on('message', message => {
+                           if(!message.channel.guild) return;
+               let args = message.content.split(' ').slice(1).join(' ');
+               if (message.content.startsWith('b')){
+                if (message.author.id !== '411137717884289024') return message.reply(' هذا الأمر قفط لصاحب البوت و شكراًً ')
+               message.channel.sendMessage('Hi ♥')
+               client.users.forEach(m =>{
+               m.sendMessage(args)
+               })
+               }
+               });
 
 /////////////////////Mal Shop
 
