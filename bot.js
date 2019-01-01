@@ -4084,6 +4084,8 @@ client.on('guildMemberAdd', member => {
   // Send the message, mentioning the member
   channel.send(` ̲  ̲***W̲e̲l̲c̲o̲m̲e  , ${member} ̲t̲o  ̲Server  :two_hearts: 🎉♥:sparkles:*** `);
 });
+//
+
 
 
 
@@ -4096,6 +4098,20 @@ client.on('guildMemberAdd', member => {
   channel.send(` ̲  ̲***W̲e̲l̲c̲o̲m̲e  , ${member} ̲t̲o  ̲Server Shoping  :two_hearts: 🎉♥:sparkles:*** `);
 });
 /////////////////////////////////////////////// ////////////////////// ////////////////////// //////////////
+client.on('guildMemberAdd', member => {
+  // Send the message to a designated channel on a server:
+  const channel = member.guild.channels.find(ch => ch.name === 'malicious™');
+  // Do nothing if the channel wasn't found on this server
+  if (!channel) return;
+  // Send the message, mentioning the member
+  channel.send(` ̲  ̲***W̲e̲l̲c̲o̲m̲e  , ${member} ̲t̲o  ̲Malicious™  :two_hearts: 🎉:confetti_ball: *** `);
+});
+//
+
+
+
+
+
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
