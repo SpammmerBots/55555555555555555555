@@ -1084,7 +1084,7 @@ client.on('message', message => {
 ////////////////////////////////////////-----------////////////////////////////////////Ticket
 client.on("message", (message) => {
     /// ALPHA CODES
-   if (message.content.startsWith("g!testnew")) {     /// ALPHA CODES
+   if (message.content.startsWith("g.!testnew")) {     /// ALPHA CODES
         const reason = message.content.split(" ").slice(1).join(" ");     /// ALPHA CODES
         if (!message.guild.roles.exists("name", "Support Team")) return message.channel.send(`This server doesn't have a \`Support Team\` role made, so the ticket won't be opened.\nIf you are an administrator, make one with that name exactly and give it to users that should be able to see tickets.`);
         if (message.guild.channels.exists("name", "ticket-${x}" + message.author)) return message.channel.send(`You already have a ticket open.`);    /// ALPHA CODES
@@ -1115,7 +1115,7 @@ client.on("message", (message) => {
     }
  
  
-  if (message.content.startsWith("g!close")) {
+  if (message.content.startsWith("g!...close")) {
         if (!message.channel.name.startsWith(`ticket-`)) return message.channel.send(`You can't use the close command outside of a ticket channel.`);
  
        message.channel.send(`Are you sure? Once confirmed, you cannot reverse this action!\nTo confirm, type \`g!confirm\`. This will time out in 10 seconds and be cancelled.`)
@@ -1190,7 +1190,7 @@ if (message.content.toLowerCase().startsWith(prefix + `new`)) {
 if (message.content.toLowerCase().startsWith(prefix + `close`)) {
     if (!message.channel.name.startsWith(`ticket-`)) return message.channel.send(`You can't use the close command outside of a ticket channel.`);
 
-    message.channel.send(`Are you sure? Once confirmed, you cannot reverse this action!\nTo confirm, type \`-confirm\`. This will time out in 10 seconds and be cancelled.`)
+    message.channel.send(`Are you sure? Once confirmed, you cannot reverse this action!\nTo confirm, type \`g!confirm\`. This will time out in 10 seconds and be cancelled.`)
     .then((m) => {
       message.channel.awaitMessages(response => response.content === '-confirm', {
         max: 1,
