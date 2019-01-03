@@ -1139,7 +1139,6 @@ client.on("message", (message) => {
 });
 
 ///////////////////
-const prefix = "g!";
 const token = process.env.BOT_TOKEN
 
 client.on("message", (message) => {
