@@ -200,7 +200,7 @@ client.on('message', async message => {
 
 
 client.on('guildMemberAdd', member=> {
-    member.addRole(member.guild.roles.find("name","»MâL"));
+    member.addRole(member.guild.roles.find("name","• Mál » Members."));
     });
 
 client.on('guildMemberAdd', member=> {
