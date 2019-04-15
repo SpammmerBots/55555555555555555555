@@ -77,23 +77,6 @@ client.on("message", (message) => {
 
 
 
-client.on('ready', function(){    
-    var ms = 5000 ;    
-    var setGame = [`بوت تحت الصيانة`,"Update Music","Update رينبو","Update All :'D","g!invite","By:Mal Mahmoud-QuaStyle","g!help","Waiting Please ♥"];    
-    var i = -1;    
-    var j = 0;    
-    setInterval(function (){    
-        if( i == -1 ){    
-j = 1;    
-       }    
-        if( i == (setGame.length)-1 ){    
-            j = -1;    
-      }    
-       i = i+j;    
-        client.user.setGame(setGame[i],`WATCHING`);    
-}, ms);    
-    
-});
 
 
 /////////////////////////////////////////////////////////////////////
@@ -204,7 +187,7 @@ client.on('guildMemberAdd', member=> {
     });
 
 client.on('guildMemberAdd', member=> {
-    member.addRole(member.guild.roles.find("name","•  ೌ Guest ."));
+    member.addRole(member.guild.roles.find("name","» People  ,"));
     });
 client.on('guildMemberAdd', member=> {
     member.addRole(member.guild.roles.find("name","『Members』"));
@@ -1331,7 +1314,7 @@ client.on('message', message => {
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" **:small_orange_diamond: Link Server Support︾**" , "  **https://discord.gg/4uUcper**")
+  .addField(" **:small_orange_diamond: Link Server Support︾**" , "  **https://discord.gg/V6fVYRv**")
   .addField(" **:small_blue_diamond: Link Mal Shop︾ **" , "  **https://discordapp.com/api/oauth2/authorize?client_id=489487215270035466&permissions=2146958839&scope=bot**")     
      
   message.channel.sendEmbed(embed);
@@ -1344,7 +1327,7 @@ client.on('message', message => {
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/4uUcper**")
+  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/V6fVYRv**")
      
      
   message.channel.sendEmbed(embed);
@@ -1357,7 +1340,7 @@ client.on('message', message => {
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/4uUcper**")
+  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/V6fVYRv**")
      
      
   message.channel.sendEmbed(embed);
@@ -7618,12 +7601,7 @@ hours = 12;
 
 
 
-client.on("ready", () => {
-  function lol() {
-    client.guilds.get('479519956208320512').roles.find("name", "♕").setColor("RANDOM");
-  };
-  setInterval(lol, 10099);
-});
+
 
 
 
