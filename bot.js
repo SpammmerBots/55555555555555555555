@@ -4158,69 +4158,6 @@ client.on('guildMemberAdd', member => {
 
 
 
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-});
-
-client.on('message', msg => {
-  if (msg.content === 'g!help') {
-    msg.reply('***Welcome To Server*** :sparkles: ');
-  }
-});
-
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-});
-
-
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-});
-client.on('message', msg => {
-  if (msg.content === 'g!help-game') {
-    msg.reply('***10% من العاب تحت الصيانة** :sparkles: ');
-  }
-});
-
-
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-});
-
-client.on('message', msg => {
-  if (msg.content === 'هلا') {
-    msg.reply('***Welcome To Server*** :sparkles: ');
-  }
-});
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-});
-
-client.on('message', msg => {
-  if (msg.content === '.') {
-    msg.reply('***Welcome To Server*** :sparkles: ');
-  }
-});
-client.on('message', msg => {
-  if (msg.content === '..') {
-    msg.reply('***Welcome To Server*** :sparkles: ');
-  }
-});
-client.on('message', msg => {
-  if (msg.content === '...') {
-    msg.reply('***Welcome To Server*** :sparkles: ');
-  }
-});
-client.on('message', msg => {
-  if (msg.content === '?') {
-    msg.reply('***Welcome To Server*** :sparkles: ');
-  }
-});
-client.on('message', msg => {
-  if (msg.content === '??') {
-    msg.reply('***Welcome To Server*** :sparkles: ');
-  }
-});
 
 
 
@@ -5190,7 +5127,7 @@ client.on('message', message=> {
     if (message.author.bot) return;
     if (message.isMentioned(client.user))
     {
-    message.reply("`g!help g!help-R`");
+    message.reply("`g!help `");
     }
 });
 
