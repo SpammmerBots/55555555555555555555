@@ -1,4 +1,4 @@
-..
+
 const Discord = require('discord.js');
 const tpoints = {};
 const vpoints = {};
