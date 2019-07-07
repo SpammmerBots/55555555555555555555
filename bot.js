@@ -4766,55 +4766,7 @@ client.on('message', message => {
 
 
 ////////////////////-----------------------------------------///////info members
-client.on('message', message => {
-    if(message.author.bot) return; // Alpha Codes Server.
-    if(message.channel.type === 'dm') return;
-   
-    var args = message.content.toLowerCase().split(' '); // Alpha Codes Server.
-    var command = args[0];
-    var prefix = 'g!'; // <=========== تقدر تغير البرفكس
-   
-    if(command == prefix + 'members') {
-        var memberS = message.guild.members.size; // Alpha Codes Server.
-        if(!args[1] || isNaN(args[1]) || args[1] === '1') {
-            var number = 1;
- 
-            if(memberS > 10) {
-                var more = `\n__:sparkles: **More?** \`\`${prefix}members 2\`\` (${Math.round(memberS / 10)} pages)`;
-            }else {
-                var more = '__'; // Alpha Codes Server.
-            }
- 
-            let embedS = new Discord.RichEmbed()
-            .setTitle(`:white_check_mark: **${memberS}** Members.`) // Alpha Codes Server.
-            .setColor('GREEN')
-            .setDescription(`__\n__${message.guild.members.map(m => `**${number++}.** \`\`${m.user.tag}\`\``).slice(0, 10).join('\n')}__\n${more}`)
-            .setTimestamp()
-            .setFooter(message.author.tag, message.author.avatarURL)
- 
-            message.channel.send(embedS);
-        }else if(!isNaN(args[1])) {
-            var number = 1;
- 
-            if(memberS > 10) {
-                var more = `choose **1** To **${Math.round(memberS / 10)}**`;
-            }else {
-                var more = 'This server have **1** Page only.'; // Alpha Codes Server.
-            }
- 
-            if(Math.round(args[1].replace('-', '')) * 10 - 9 > memberS) return message.channel.send(`:no_entry: | I couldn\'t find the page. ${more}`);
- 
-           let embedS = new Discord.RichEmbed()
-           .setTitle(`:white_check_mark: **${memberS}** Members.`) // Alpha Codes Server.
-           .setColor('GREEN')
-           .setDescription(`__\n__${message.guild.members.map(m => `**${number++}.** \`\`${m.user.tag}\`\``).slice(10 * Math.round(args[1].replace('-', '')) - 10, 10 * Math.round(args[1].replace('-', ''))).join('\n')}\n\n:sparkles: **More?** \`\`${prefix}members ${Math.round(args[1].replace('-', '')) + 1}\`\` (${Math.round(memberS / 10)} pages)`)
-           .setTimestamp()
-           .setFooter(message.author.tag, message.author.avatarURL)
- 
-           message.channel.send(embedS);
-       }
-   }
- 
+
  
    
 
