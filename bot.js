@@ -4720,8 +4720,8 @@ client.on('message', message => {
        message.channel.sendMessage(` اضغط على الصح عشان تتفعل وتاخذ الرتبة برو. تقائي`).then(msg => {
        
        
-        msg.react('✅')
-       .then(() => msg.react('✅'))
+        msg.react('👨')
+       .then(() => msg.react('👨'))
      
      
  
@@ -4731,15 +4731,45 @@ client.on('message', message => {
      
                                                        
                                active.on("collect", r => {
-                                   message.member.addRole(message.guild.roles.find("name", ".Pro"));
-                                   message.member.removeRole(message.guild.roles.find("name", "Member.."));
+                                   message.member.addRole(message.guild.roles.find("name", "Man"));
+                                   message.member.removeRole(message.guild.roles.find("name", "Girl"));
                                    msg.delete();
-                                   message.channel.send(`**تم تفعيلك استمتع.**`).then(m => m.delete(-1000));  
+                                   message.channel.send(`**Done <:ture:591227990424158219> **`).then(m => m.pro(1000));  
 
                                    })
                                    })
                                    }
                                    });
+
+///
+client.on('message', message => {                      
+    if(!message.channel.guild) return;
+       if(message.content.startsWith(prefix + 'Girl')) {       
+       if(!message.channel.guild) return message.channel.send('**هذا الأمر فقط للسيرفرات**').then(m => m.delete(5000));
+       message.channel.sendMessage(` اضغط على الصح عشان تتفعل وتاخذ الرتبة جرل. تقائي`).then(msg => {
+       
+       
+        msg.react('👩')
+       .then(() => msg.react('👩'))
+     
+     
+ 
+       let activeFilter = (reaction, user) => reaction.emoji.name === '✅' && user.id === message.author.id;
+     
+       let active = msg.createReactionCollector(activeFilter, { time: 15000 });
+     
+                                                       
+                               active.on("collect", r => {
+                                   message.member.addRole(message.guild.roles.find("name", "Girl"));
+                                   message.member.removeRole(message.guild.roles.find("name", "Man"));
+                                   msg.delete();
+                                   message.channel.send(`**Done <:ture:591227990424158219> **`).then(m => m.pro(1000));  
+
+                                   })
+                                   })
+                                   }
+                                   });
+
 
 /////////////--------------------------///////Test now 
 client.on('message', message => {
