@@ -4,7 +4,7 @@ const tpoints = {};
 const vpoints = {};
 const jimp = require("jimp");
 const Canvas = require("canvas");
-const client = new Discord.Client();
+const client = new Discord.Client();.
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
