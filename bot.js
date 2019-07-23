@@ -4731,8 +4731,8 @@ client.on('message', message => {
      
                                                        
                                active.on("collect", r => {
-                                   message.member.addRole(message.guild.roles.find("name", "disco"));
-                                   message.member.removeRole(message.guild.roles.find("name", "Member"));
+                                   message.member.addRole(message.guild.roles.find("name", ".Pro"));
+                                   message.member.removeRole(message.guild.roles.find("name", "Member.."));
                                    msg.delete();
                                    message.channel.send(`**تم تفعيلك استمتع.**`).then(m => m.delete(1000));  
 
