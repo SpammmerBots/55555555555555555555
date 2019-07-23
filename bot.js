@@ -4717,7 +4717,7 @@ client.on('message', message => {
     if(!message.channel.guild) return;
        if(message.content.startsWith(prefix + 'active')) {       
        if(!message.channel.guild) return message.channel.send('**هذا الأمر فقط للسيرفرات**').then(m => m.delete(5000));
-       message.channel.sendMessage(` اضغط على الصح عشان تتفعل وتاخذ الرتبة الوان تقائي`).then(msg => {
+       message.channel.sendMessage(` اضغط على الصح عشان تتفعل وتاخذ الرتبة برو. تقائي`).then(msg => {
        
        
         msg.react('✅')
@@ -4734,7 +4734,7 @@ client.on('message', message => {
                                    message.member.addRole(message.guild.roles.find("name", ".Pro"));
                                    message.member.removeRole(message.guild.roles.find("name", "Member.."));
                                    msg.delete();
-                                   message.channel.send(`**تم تفعيلك استمتع.**`).then(m => m.delete(1000));  
+                                   message.channel.send(`**تم تفعيلك استمتع.**`).then(m => m.delete(-1000));  
 
                                    })
                                    })
